@@ -1,0 +1,4 @@
+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
+git remote add origin https://github.com/Neeraj-Design/portfolio-new.git
+git remote add origin https://Neeraj-Design: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@github.com/Neeraj-Design/portfolio-new.git
+git remote set-url origin git@github.com:Nidhish-Dev/neeraj-portfolio.git
