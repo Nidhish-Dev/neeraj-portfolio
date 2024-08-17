@@ -1,9 +1,8 @@
 "use client";
 
-import Image from "next/image";
+import React, { useRef } from "react";
 import Hero from "@/components/Hero";
-import AnimatedPinDemo from '@/app/projects/page'; // Ensure this is compatible as a client component
-import { useRef } from "react";
+import { AnimatedPinDemo } from "@/app/projects/AnimatedPinDemo"; // Adjust import path
 
 export default function Home() {
   const animatedPinDemoRef = useRef<HTMLDivElement>(null);
