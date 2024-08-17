@@ -4,16 +4,18 @@ import Image from "next/image";
 import { PinContainer } from "@/components/ui/3d-pin";
 export function AnimatedPinDemo() {
   return (
+  <>
+  
+<p className="ml-20 text-2xl font-bold"> Projects</p>
     <div className=" project-cards flex flex-wrap justify-center">
-
     <div className="h-[30rem] flex items-center justify-center ">
       <PinContainer
-        title="/ui.aceternity.com"
+        title="/modamuse.com"
         href="https://twitter.com/mannupaaji"
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-          Vogue Voyage
+          Moda Muse
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
@@ -22,7 +24,7 @@ export function AnimatedPinDemo() {
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 " >
           <Image
-      src="/bg.jpg"
+      src="/modaMuse.jpg"
       width={400}
       height={400}
       alt="Picture of the author"
@@ -34,21 +36,21 @@ export function AnimatedPinDemo() {
 
     <div className="h-[30rem]  flex items-center justify-center ">
       <PinContainer
-        title="/ui.aceternity.com"
+        title="/homehive.com"
         href="https://twitter.com/mannupaaji"
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-          Vogue Voyage
+          Home Hive
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-            Vogue Voyage merges fashion and data analytics for trend-driven insights.
+            Platform for international students to find housing and community.
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 " >
           <Image
-      src="/bg.jpg"
+      src="/homeHive.jpg"
       width={500}
       height={500}
       alt="Picture of the author"
@@ -60,21 +62,21 @@ export function AnimatedPinDemo() {
 
     <div className="h-[30rem] flex items-center justify-center ">
       <PinContainer
-        title="/ui.aceternity.com"
+        title="/alivespaces.com"
         href="https://twitter.com/mannupaaji"
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-          Vogue Voyage
+          Alive Spaces
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-            Vogue Voyage merges fashion and data analytics for trend-driven insights.
+            An immersive experience making luxury vehicles feel alive to users.
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 " >
           <Image
-      src="/bg.jpg"
+      src="/aliveSpaces.png"
       width={500}
       height={500}
       alt="Picture of the author"
@@ -86,21 +88,21 @@ export function AnimatedPinDemo() {
 
     <div className="h-[30rem]  flex items-center justify-center ">
       <PinContainer
-        title="/ui.aceternity.com"
+        title="/zenify.com"
         href="https://twitter.com/mannupaaji"
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-          Vogue Voyage
+          Zenify
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-            Vogue Voyage merges fashion and data analytics for trend-driven insights.
+            A personalized biofeedback for modern individuals to enhance meditation practice.
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 " >
           <Image
-      src="/bg.jpg"
+      src="/zenify.jpg"
       width={500}
       height={500}
       alt="Picture of the author"
@@ -112,21 +114,21 @@ export function AnimatedPinDemo() {
 
     <div className="h-[30rem] flex items-center justify-center ">
       <PinContainer
-        title="/ui.aceternity.com"
+        title="/easygrocery.com"
         href="https://twitter.com/mannupaaji"
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-          Vogue Voyage
+          Easy Grocery
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-            Vogue Voyage merges fashion and data analytics for trend-driven insights.
+            Platform for buying groceries online from local retail shops easily.
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 " >
           <Image
-      src="/bg.jpg"
+      src="/easyGrocery.jpg"
       width={500}
       height={500}
       alt="Picture of the author"
@@ -137,6 +139,7 @@ export function AnimatedPinDemo() {
     </div>
     
     </div>
+    </>
   );
 }
 

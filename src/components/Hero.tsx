@@ -1,10 +1,22 @@
 "use client";
-import React from "react";
+
+import React, { useState } from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
-function Hero() {
+interface HeroProps {
+  onScrollToProjects: () => void;
+}
+
+function Hero({ onScrollToProjects }: HeroProps) {
   const words = `A multidisciplinary visual designer based in Berlin, Germany I craft seamless digital experiences that harmonize functionality with aesthetics.`;
+  
+  const [showScrollLink, setShowScrollLink] = useState(true);
+
+  const handleScrollClick = () => {
+    onScrollToProjects();
+    setShowScrollLink(false);
+  };
 
   return (
     <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
@@ -22,6 +34,16 @@ function Hero() {
           filter={true}
           duration={0.5}
         />
+        {showScrollLink && (
+          <div className="text-center mt-8">
+            <button
+              onClick={handleScrollClick}
+              className="text-white text-xs cursor-pointer mt-10"
+            >
+              Scroll down to view projects
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
