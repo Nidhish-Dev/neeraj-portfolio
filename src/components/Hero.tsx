@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
@@ -17,6 +17,21 @@ function Hero({ onScrollToProjects }: HeroProps) {
     onScrollToProjects();
     setShowScrollLink(false);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setShowScrollLink(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
@@ -38,9 +53,8 @@ function Hero({ onScrollToProjects }: HeroProps) {
           <div className="text-center mt-8">
             <button
               onClick={handleScrollClick}
-              className="text-white text-xs cursor-pointer mt-10"
-            >
-              Scroll down to view projects
+              className="text-white text-xs cursor-pointer inset-x-0 fixed bottom-12"
+            >          Scroll Down to view projects
             </button>
           </div>
         )}

@@ -8,7 +8,7 @@ export function AnimatedPinDemo() {
   return (
     <>
   
-    <p className="ml-20 text-2xl font-bold"> Projects</p>
+    {/* <p className="ml-20 text-2xl font-bold"> Projects</p> */}
         <div className=" project-cards flex flex-wrap justify-center">
         <div className="h-[30rem] flex items-center justify-center ">
           <PinContainer
@@ -21,7 +21,7 @@ export function AnimatedPinDemo() {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500 ">
-                Vogue Voyage merges fashion and data analytics for trend-driven insights.
+                Moda Muse merges fashion and data analytics for trend-driven insights.
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 " >
