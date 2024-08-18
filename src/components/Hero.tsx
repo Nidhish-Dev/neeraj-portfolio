@@ -42,16 +42,18 @@ function Hero({ onScrollToProjects }: HeroProps) {
     </div>
     
     <div className=" flex flex-col  mt-40">
-    
+    <div className="spotlight">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
       />
+      </div>
       
-      <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-20 md:pt-0">
-        <h1 className="text-4xl mb-4 md:text-7xl font-bold text-center bg-clip-text text-transparent pb-2 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-          Hello,<br />I&apos;m Neeraj Kumar.
-        </h1>
+      <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-0 md:pt-0">
+      <h1 className="text-4xl mb-4 font-bold text-center bg-clip-text text-transparent pb-2 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 md:text-7xl md:text-transparent md:bg-clip-text md:bg-gradient-to-b md:from-neutral-50 md:to-neutral-400 md:bg-opacity-50">
+  Hello,<br />I&apos;m Neeraj Kumar.
+</h1>
+
         <TextGenerateEffect
           className="mt-1 max-w-2xl px-2 text-center mx-auto"
           words={words}

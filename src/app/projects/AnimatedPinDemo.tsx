@@ -105,8 +105,8 @@ export function AnimatedPinDemo() {
               <div className="flex flex-1 w-full rounded-lg mt-4 " >
               <Image
           src="/zenify.jpg"
-          width={500}
-          height={500}
+          width={300}
+          height={300}
           alt="Picture of the author"
         />
                 </div>

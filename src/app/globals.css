@@ -55,4 +55,7 @@ body {
     margin-left: 8px; /* Smaller margin for mobile screens */
     margin-right: 8px; /* Smaller margin for mobile screens */
   }
+  .spotlight{
+    display: none;
+  }
 }
