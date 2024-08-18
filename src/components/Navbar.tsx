@@ -19,7 +19,7 @@ function Navbar({ activeLink }: NavbarProps) {
         />
       </div>
       <div className="right-items">
-        <ul className="flex flex-row gap-2 md:gap-4">
+        <ul className="flex flex-row gap-4 md:gap-6">
           <li>
             <Link
               href="/"
