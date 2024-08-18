@@ -9,6 +9,7 @@ interface HeroProps {
 }
 
 function Hero({ onScrollToProjects }: HeroProps) {
+  const activeLink = '/';
   const words = `A multidisciplinary visual designer based in Berlin, Germany I craft seamless digital experiences that harmonize functionality with aesthetics.`;
   
   const [showScrollLink, setShowScrollLink] = useState(true);
@@ -37,7 +38,7 @@ function Hero({ onScrollToProjects }: HeroProps) {
     <>
    <div className="h-[40rem] w-full rounded-md   md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
    <div className="navbar  ">
-    <Navbar/ >
+   <Navbar activeLink={activeLink} />
     </div>
     
     <div className=" flex flex-col  mt-40">

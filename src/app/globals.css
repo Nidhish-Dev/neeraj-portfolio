@@ -41,6 +41,8 @@ body {
 
 .navbar{
   background-color: #ffffff00;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
 }
