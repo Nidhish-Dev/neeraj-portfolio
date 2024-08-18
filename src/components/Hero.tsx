@@ -64,7 +64,7 @@ function Hero({ onScrollToProjects }: HeroProps) {
           <div className="text-center mt-8">
             <button
               onClick={handleScrollClick}
-              className="text-white text-xs cursor-pointer inset-x-0 fixed bottom-12"
+              className="text-white font-light text-xs cursor-pointer inset-x-0 fixed bottom-12"
             >          Scroll Down to view projects
             </button>
           </div>
