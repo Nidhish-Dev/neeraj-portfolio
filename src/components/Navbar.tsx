@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from 'next/image';
 
 interface NavbarProps {
   activeLink: string;
@@ -8,8 +9,14 @@ interface NavbarProps {
 function Navbar({ activeLink }: NavbarProps) {
   return (
     <main className="navbar font-light flex flex-row md:flex-row justify-between items-center mt-5 px-4">
-      <div className="left-items flex items-center text-center md:text-left text-sm md:text-base">
-        Neeraj Kumar
+      <div className="left-items ">
+        <Image
+          src="/NK.png"
+          width={40}
+          height={40} // Ensure height is set to a non-zero value
+          alt="Picture of the author"
+         
+        />
       </div>
       <div className="right-items">
         <ul className="flex flex-row gap-2 md:gap-4">
