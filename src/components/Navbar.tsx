@@ -8,7 +8,7 @@ interface NavbarProps {
 
 function Navbar({ activeLink }: NavbarProps) {
   return (
-    <main className="navbar font-light flex flex-row md:flex-row justify-between items-center mt-5 px-4">
+    <main className="navbar font-light flex flex-row md:flex-row justify-between items-center mt-7 px-4">
       <div className="left-items ">
         <Image
           src="/NK.png"
