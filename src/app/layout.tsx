@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Work_Sans } from "next/font/google"; // Update the import
+import { Montserrat } from "next/font/google"; // Update the import
 import "./globals.css";
 import Navbar from '@/components/Navbar';
 
-const workSans = Work_Sans({ subsets: ["latin"] }); // Use Work Sans instead of Inter
+const montserrat = Montserrat({ subsets: ["latin"] }); // Use Montserrat
 
 export const metadata: Metadata = {
   title: "Portfolio - 2024",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={workSans.className}> {/* Apply Work Sans font */}
+      <body className={montserrat.className}> {/* Apply Montserrat font */}
         <div className="relative w-full flex items-center justify-center">
           {/* <Navbar /> */}
         </div>
