@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
-
+import Navbar from '@/components/Navbar'
 interface HeroProps {
   onScrollToProjects: () => void;
 }
@@ -34,11 +34,19 @@ function Hero({ onScrollToProjects }: HeroProps) {
   }, []);
 
   return (
-    <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <>
+   <div className="h-[40rem] w-full rounded-md   md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+   <div className="navbar  ">
+    <Navbar/ >
+    </div>
+    
+    <div className=" flex flex-col  mt-40">
+    
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
       />
+      
       <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-20 md:pt-0">
         <h1 className="text-4xl mb-4 md:text-7xl font-bold text-center bg-clip-text text-transparent pb-2 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           Hello,<br />I&apos;m Neeraj Kumar.
@@ -60,6 +68,8 @@ function Hero({ onScrollToProjects }: HeroProps) {
         )}
       </div>
     </div>
+    </div>
+    </>
   );
 }
 

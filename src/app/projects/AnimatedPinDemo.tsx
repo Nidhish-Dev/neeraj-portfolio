@@ -20,7 +20,7 @@ export function AnimatedPinDemo() {
               Moda Muse
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
-                <span className="text-slate-500 ">
+                <span className="pinColor ">
                 Moda Muse merges fashion and data analytics for trend-driven insights.
                 </span>
               </div>
@@ -46,7 +46,7 @@ export function AnimatedPinDemo() {
               Home Hive
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
-                <span className="text-slate-500 ">
+                <span className="pinColor ">
                 Platform for international students to find housing and community.
                 </span>
               </div>
@@ -72,7 +72,7 @@ export function AnimatedPinDemo() {
               Alive Spaces
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
-                <span className="text-slate-500 ">
+                <span className="pinColor">
                 An immersive experience making luxury vehicles feel alive to users.
                 </span>
               </div>
@@ -98,7 +98,7 @@ export function AnimatedPinDemo() {
               Zenify
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
-                <span className="text-slate-500 ">
+                <span className="pinColor ">
                 A personalized biofeedback for modern individuals to enhance meditation practice.
                 </span>
               </div>
@@ -124,7 +124,7 @@ export function AnimatedPinDemo() {
               Easy Grocery
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
-                <span className="text-slate-500 ">
+                <span className="pinColor ">
                 Platform for buying groceries online from local retail shops easily.
                 </span>
               </div>

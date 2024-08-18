@@ -35,3 +35,12 @@ body {
 .spaced-text {
   word-spacing: 0.5em; /* Adjust the spacing value as needed */
 }
+.pinColor{
+  color: #868686;
+}
+
+.navbar{
+  background-color: #ffffff00;
+  justify-content: space-around;
+  align-items: center;
+}
