@@ -13,7 +13,7 @@ export function AnimatedPinDemo() {
         <div className="h-[30rem] flex items-center justify-center ">
           <PinContainer
             title="/modamuse.com"
-            href="https://twitter.com/mannupaaji"
+            href="https://neeraj-design.github.io/Portfolio/#/Portfolio/modaMuse"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -25,12 +25,15 @@ export function AnimatedPinDemo() {
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 " >
-              <Image
-          src="/modaMuse.jpg"
-          width={400}
-          height={400}
-          alt="Picture of the author"
-        />
+              <div className="imgcls mb-32">
+<Image
+  className="rounded-lg mb-44"
+  src="/modaMuse.jpg"
+  width={300}
+  height={300}
+  alt="Picture of the author"
+/>
+</div>
                 </div>
             </div>
           </PinContainer>
@@ -39,7 +42,7 @@ export function AnimatedPinDemo() {
         <div className="h-[30rem]  flex items-center justify-center ">
           <PinContainer
             title="/homehive.com"
-            href="https://twitter.com/mannupaaji"
+            href="https://neeraj-design.github.io/Portfolio/#/Portfolio/homeHive"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -51,12 +54,16 @@ export function AnimatedPinDemo() {
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 " >
-              <Image
-          src="/homeHive.jpg"
-          width={500}
-          height={500}
-          alt="Picture of the author"
-        />
+              <div className="imgcls mb-32">
+<Image
+  className="rounded-lg mb-44"
+  src="/homeHive.jpg"
+  width={300}
+  height={300}
+  alt="Picture of the author"
+/>
+</div>
+        
                 </div>
             </div>
           </PinContainer>
@@ -65,7 +72,7 @@ export function AnimatedPinDemo() {
         <div className="h-[30rem] flex items-center justify-center ">
           <PinContainer
             title="/alivespaces.com"
-            href="https://twitter.com/mannupaaji"
+            href="https://neeraj-design.github.io/Portfolio/#/Portfolio/aliveSpaces"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -77,12 +84,15 @@ export function AnimatedPinDemo() {
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 " >
-              <Image
-          src="/aliveSpaces.png"
-          width={500}
-          height={500}
-          alt="Picture of the author"
-        />
+              <div className="imgcls mb-32">
+<Image
+  className="rounded-lg mb-44"
+  src="/aliveSpaces.jpg"
+  width={300}
+  height={300}
+  alt="Picture of the author"
+/>
+</div>
                 </div>
             </div>
           </PinContainer>
@@ -91,7 +101,7 @@ export function AnimatedPinDemo() {
         <div className="h-[30rem]  flex items-center justify-center ">
           <PinContainer
             title="/zenify.com"
-            href="https://twitter.com/mannupaaji"
+            href="https://neeraj-design.github.io/Portfolio/#/Portfolio/sereniTech"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -99,16 +109,19 @@ export function AnimatedPinDemo() {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="pinColor ">
-                A personalized biofeedback for modern individuals to enhance meditation practice.
+                Personalized biofeedback to enhance modern meditation practices.
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 " >
-              <Image
-          src="/zenify.jpg"
-          width={300}
-          height={300}
-          alt="Picture of the author"
-        />
+             <div className="imgcls mb-32">
+<Image
+  className="rounded-lg mb-44"
+  src="/zenify.jpg"
+  width={300}
+  height={300}
+  alt="Picture of the author"
+/>
+</div>
                 </div>
             </div>
           </PinContainer>
@@ -117,7 +130,7 @@ export function AnimatedPinDemo() {
         <div className="h-[30rem] flex items-center justify-center ">
           <PinContainer
             title="/easygrocery.com"
-            href="https://twitter.com/mannupaaji"
+            href="https://neeraj-design.github.io/Portfolio/#/Portfolio/easyGrocery"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -129,12 +142,15 @@ export function AnimatedPinDemo() {
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 " >
-              <Image
-          src="/easyGrocery.jpg"
-          width={500}
-          height={500}
-          alt="Picture of the author"
-        />
+              <div className="imgcls mb-32">
+<Image
+  className="rounded-lg mb-44"
+  src="/easyGrocery.jpg"
+  width={300}
+  height={300}
+  alt="Picture of the author"
+/>
+</div>
                 </div>
             </div>
           </PinContainer>
