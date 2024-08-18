@@ -50,6 +50,19 @@ body {
   margin-left: 60px;
   margin-right: 60px;
 }
+.footer{
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.line{
+
+  background-color: #868686;
+  height: 0.5px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
 @media (max-width: 768px) {
   .navbar {
     margin-left: 8px; /* Smaller margin for mobile screens */
@@ -58,4 +71,10 @@ body {
   .spotlight{
     display: none;
   }
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+

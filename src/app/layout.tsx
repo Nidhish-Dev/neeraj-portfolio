@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google"; // Update the import
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from '@/components/Navbar';
-import Head from 'next/head'; // Import Head from next/head
+import Footer from "@/components/Footer";
+import Head from 'next/head';
 
-const montserrat = Montserrat({ subsets: ["latin"] }); // Use Montserrat
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portfolio - 2024",
@@ -19,15 +20,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className="dark">
       <Head>
-      <link rel="icon" href="/favicon.ico" />
-       
- 
+        <link rel="icon" href="/favicon.ico" />
+        {/* Add other head elements here */}
       </Head>
-      <body className={montserrat.className}> {/* Apply Montserrat font */}
-        <div className="relative w-full flex items-center justify-center">
-          {/* <Navbar /> */}
+      <body className={`${montserrat.className} flex flex-col min-h-screen`}>
+        <div className="flex-grow">
+          {/* Optionally include Navbar here if needed */}
+          {children}
         </div>
-        {children}
+        <footer className="w-full">
+          <Footer />
+        </footer>
       </body>
     </html>
   );
