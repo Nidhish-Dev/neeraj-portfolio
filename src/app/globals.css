@@ -16,7 +16,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -25,9 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
   
-}
+} */
 body {
   font-family: 'Work Sans', sans-serif;
+  background-color: black;
 }
 
 
