@@ -4,7 +4,9 @@ function page() {
     const activeLink = '/about';
   return (
     <div>
-      <Navbar activeLink={activeLink} />
+      <div className="navbar antialiased ">
+   <Navbar activeLink={activeLink} />
+    </div>
     </div>
   )
 }

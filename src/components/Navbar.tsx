@@ -7,7 +7,7 @@ interface NavbarProps {
 
 function Navbar({ activeLink }: NavbarProps) {
   return (
-    <main className="navbar flex flex-row md:flex-row justify-between items-center mt-5 px-4">
+    <main className="navbar font-light flex flex-row md:flex-row justify-between items-center mt-5 px-4">
       <div className="left-items flex items-center text-center md:text-left text-sm md:text-base">
         Neeraj Kumar
       </div>
@@ -16,7 +16,7 @@ function Navbar({ activeLink }: NavbarProps) {
           <li>
             <Link
               href="/"
-              className={`text-sm md:text-base ${activeLink === '/' ? 'text-white' : 'text-gray-400'}`}
+              className={`text-sm md:text-base ${activeLink === '/' ? 'text-white' : 'text-custom-gray'}`}
             >
               Home
             </Link>
@@ -32,7 +32,7 @@ function Navbar({ activeLink }: NavbarProps) {
           <li>
             <Link
               href="/about"
-              className={`text-sm md:text-base ${activeLink === '/about' ? 'text-white' : 'text-gray-400'}`}
+              className={`text-sm md:text-base ${activeLink === '/about' ? 'text-white' : 'text-custom-gray'}`}
             >
               About
             </Link>
@@ -40,7 +40,7 @@ function Navbar({ activeLink }: NavbarProps) {
           <li>
             <Link
               href="/contact"
-              className={`text-sm md:text-base ${activeLink === '/contact' ? 'text-white' : 'text-gray-400'}`}
+              className={`text-sm md:text-base ${activeLink === '/contact' ? 'text-white' : 'text-custom-gray'}`}
             >
               Contact
             </Link>

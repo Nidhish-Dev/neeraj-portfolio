@@ -19,6 +19,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'custom-gray': '#868686',
+      },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
       },
