@@ -1,6 +1,5 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 
 const Page: React.FC = () => {
@@ -14,7 +13,7 @@ const Page: React.FC = () => {
 
   return (
     <div>
-      <div className="navbar mt-4 bg-red-600 mb-4">
+      <div className="navbar mt-4 mb-4">
         <Navbar activeLink={activeLink} />
       </div>
       
@@ -25,14 +24,12 @@ const Page: React.FC = () => {
         </div>
       )}
 
-      <Image
+      <img
         className="projects-img"
         src="/g2.jpg"
         alt="Project"
-        layout="responsive" // Adjust layout as needed
-        width={1200} // Adjust width as needed
-        height={800} // Adjust height as needed
-        onLoadingComplete={() => setIsLoading(false)} // Hide loading screen when image is loaded
+        onLoad={() => setIsLoading(false)} // Hide loading screen when image is loaded
+        style={{ display: isLoading ? 'none' : 'block', width: '100%', height: 'auto' }} // Ensure the image scales correctly
       />
       
       <style jsx>{`
@@ -62,6 +59,12 @@ const Page: React.FC = () => {
         @keyframes spin {
           0% { transform: rotate(0deg); }
           100% { transform: rotate(360deg); }
+        }
+
+        .projects-img {
+          display: block; /* Ensures the image is block-level for styling */
+          max-width: 100%; /* Ensures the image scales properly within its container */
+          height: auto; /* Keeps aspect ratio intact */
         }
       `}</style>
     </div>
