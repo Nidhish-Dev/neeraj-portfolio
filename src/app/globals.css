@@ -50,6 +50,7 @@ body {
   align-items: center;
   margin-left: 60px;
   margin-right: 60px;
+  margin-top: 1rem;
 }
 .footer{
   justify-content: space-between;
@@ -78,4 +79,10 @@ body {
   }
 }
 
-
+.project-heading{
+  margin-bottom: -30px;
+}
+.projects-img{
+  width: 100%;
+  
+}
