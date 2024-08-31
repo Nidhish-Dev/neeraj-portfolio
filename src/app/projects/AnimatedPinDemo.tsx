@@ -8,7 +8,7 @@ export function AnimatedPinDemo() {
   return (
     <>
 
-  <p className="project-heading text-white ml-20 text-xl font-semibold">Graphic Design</p>
+  <p className="project-heading text-white ml-20 text-xl mt-16 font-semibold">Graphic Design</p>
 <div className=" project-cards flex flex-wrap justify-center">
         <div className="h-[30rem] flex items-center justify-center ">
           <PinContainer
@@ -108,7 +108,7 @@ export function AnimatedPinDemo() {
         <div className="h-[30rem] flex items-center justify-center ">
           <PinContainer
             title="/modamuse.com"
-            href="https://neeraj-design.github.io/Portfolio/#/Portfolio/modaMuse"
+            href="/projects/modamuse"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -137,7 +137,7 @@ export function AnimatedPinDemo() {
         <div className="h-[30rem]  flex items-center justify-center ">
           <PinContainer
             title="/homehive.com"
-            href="https://neeraj-design.github.io/Portfolio/#/Portfolio/homeHive"
+            href="/projects/homehive"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
