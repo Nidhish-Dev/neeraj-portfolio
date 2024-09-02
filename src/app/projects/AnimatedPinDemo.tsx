@@ -73,7 +73,7 @@ export function AnimatedPinDemo() {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="pinColor">
-                Elegant, heritage-inspired logo showcasing Jaipur's culture and Kundan jewelry.
+                Elegant, heritage-inspired logo showcasing Jaipur&apos;s culture and Kundan jewelry.
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 ">
