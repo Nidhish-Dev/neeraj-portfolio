@@ -31,7 +31,21 @@ const Page: React.FC = () => {
         onLoad={() => setIsLoading(false)} // Hide loading screen when image is loaded
         style={{ display: isLoading ? 'none' : 'block', width: '100%', height: 'auto' }} // Ensure the image scales correctly
       />
-      
+       <div className="project1Text-container">
+        <img 
+          src="/p14.jpg" 
+          alt="Project Image 2" 
+          onLoad={() => setIsLoading(false)} // Hide loading screen when image is loaded
+        style={{ display: isLoading ? 'none' : 'block', width: '100%', height: 'auto' }}
+        />
+      </div>
+      <div className="prototype">
+        <iframe
+          style={{ border: 'none' }}
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fo3EfHC1BGLJwMhgNgjhOdL%2Feasy-grocery%3Fpage-id%3D21%253A696%26node-id%3D541-1210%26viewport%3D451%252C267%252C0.21%26t%3DTptKVBptcGKB4uCR-1%26scaling%3Dscale-down"
+          allowFullScreen
+        />
+      </div>
       <style jsx global>{`
         html {
           scroll-behavior: smooth; /* Enables smooth scrolling */
