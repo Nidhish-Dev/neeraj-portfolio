@@ -8,12 +8,11 @@ interface NavbarProps {
 
 function Navbar({ activeLink }: NavbarProps) {
   return (
-    <main className="navbar font-normal flex flex-row md:flex-row justify-between items-center mt-7 px-4">
+    <main className="navbar font-normal flex flex-row md:flex-row  mt-7">
       <div className="left-items ">
         <img
           src="/NK.png"
-          width={40}
-          height={40} // Ensure height is set to a non-zero value
+
           alt="Picture of the author"
          
         />

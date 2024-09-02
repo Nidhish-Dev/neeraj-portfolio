@@ -29,6 +29,7 @@
 body {
   font-family: 'Work Sans', sans-serif;
   background-color: black;
+  margin: 0;
 }
 
 
@@ -52,18 +53,22 @@ body {
   margin-right: 60px;
   margin-top: 1rem;
 }
+.left-items img{
+
+  height: 20px;
+}
 .footer{
   justify-content: space-between;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .line{
 
   background-color: #868686;
   height: 0.5px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 @media (max-width: 768px) {
   .navbar {
@@ -80,6 +85,7 @@ body {
 }
 
 .project-heading{
+  margin-left: 120px;
   margin-bottom: -30px;
 }
 /* .projects-img{
