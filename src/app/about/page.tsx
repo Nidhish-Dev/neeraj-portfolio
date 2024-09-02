@@ -40,7 +40,7 @@ const Page: React.FC = () => {
       <div className="thrilledSection text-white flex items-center justify-between">
 
         <div className='flex flex-col'>
-          <span>I’m thrilled to answer to</span>
+          <span>I&apos;m thrilled to answer to</span>
           <span className='arrowline flex gap-8 items-center'>your next project <img src="/arrow.png" alt="" /></span>
         </div>
 
