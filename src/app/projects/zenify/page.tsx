@@ -11,6 +11,13 @@ const Page: React.FC = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div>
       <div className="navbar mt-4 mb-4">
@@ -103,7 +110,7 @@ const Page: React.FC = () => {
           allowFullScreen
         />
       </div>
-      
+      <button className="scrollToTop" onClick={scrollToTop}>▲</button>
       <style jsx global>{`
         html {
           scroll-behavior: smooth; /* Enables smooth scrolling */
@@ -143,6 +150,7 @@ const Page: React.FC = () => {
           height: auto; /* Keeps aspect ratio intact */
         }
       `}</style>
+      
     </div>
   );
 };

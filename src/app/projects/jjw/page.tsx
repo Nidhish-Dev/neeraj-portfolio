@@ -11,7 +11,12 @@ const Page: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
     <div>
       <div className="navbar mt-4 bg-red-600 mb-4">
@@ -34,7 +39,7 @@ const Page: React.FC = () => {
         height={800} // Adjust height as needed
         onLoadingComplete={() => setIsLoading(false)} // Hide loading screen when image is loaded
       />
-      
+      <button className="scrollToTop" onClick={scrollToTop}>▲</button>
       <style jsx>{`
         .loading-screen {
           position: fixed;

@@ -47,15 +47,14 @@ export function AnimatedPinDemo() {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="pinColor ">
-                  Platform for international students to find housing and
-                  community.
+                Modern brochure design with clear messaging, compelling visuals.
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 ">
                 <div className="imgcls mb-32">
                   <Image
                     className="rounded-lg mb-44"
-                    src="/homeHive.jpg"
+                    src="/cti.jpg"
                     width={300}
                     height={300}
                     alt="Picture of the author"
@@ -74,15 +73,14 @@ export function AnimatedPinDemo() {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="pinColor">
-                  An immersive experience making luxury vehicles feel alive to
-                  users.
+                Elegant, heritage-inspired logo showcasing Jaipur's culture and Kundan jewelry.
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 ">
                 <div className="imgcls mb-32">
                   <Image
                     className="rounded-lg mb-44"
-                    src="/aliveSpaces.jpg"
+                    src="/jjw.jpg"
                     width={300}
                     height={300}
                     alt="Picture of the author"

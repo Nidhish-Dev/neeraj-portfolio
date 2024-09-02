@@ -38,6 +38,24 @@ body {
     text-wrap: balance;
   }
 }
+.scrollToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #19191975;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.scrollToTop:hover {
+  background-color: #191919;
+  transform: scale(1.1);
+}
 .spaced-text {
   word-spacing: 0.5em; /* Adjust the spacing value as needed */
 }
@@ -49,8 +67,8 @@ body {
   background-color: #ffffff00;
   justify-content: space-between;
   align-items: center;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
   margin-top: 1rem;
 }
 .left-items img{
@@ -59,8 +77,8 @@ body {
 }
 .footer{
   justify-content: space-between;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 .upper {
   align-items: center;
@@ -99,12 +117,12 @@ body {
 
   background-color: #868686;
   height: 0.5px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 .project-heading{
-  margin-left: 120px;
+  margin-left: 160px;
   margin-bottom: -30px;
 }
 /* .projects-img{
@@ -120,7 +138,26 @@ body {
   display: flex;
 }
 
-
+.thrilledSection{
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.thrilledSection span{
+  margin-top: 20px;
+font-size: 30px;
+}
+.thrilledSection span img{
+  height: 40px;
+}
+.arrowline{
+  margin-top: -40px;
+}
+.email{
+  font-size: 22px;
+}
+.resume{
+  text-decoration:underline;
+}
 .prototype iframe {
   width: 100%;
   height: 700px;
@@ -133,7 +170,21 @@ body {
   .spotlight{
     display: none;
   }
+  .project-heading{
+    margin-left: 40px;
+    margin-bottom: -30px;
+  }
+  
+  .line{
+
+    background-color: #868686;
+    height: 0.5px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
   .footer{
+    margin-left: 40px;
+    margin-right: 40px;
     font-size: 11px;
     display: flex;
     flex-direction: column;
