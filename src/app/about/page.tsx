@@ -40,7 +40,7 @@ const Page: React.FC = () => {
       <div className="thrilledSection text-white flex items-center justify-between">
 
         <div className='flex flex-col'>
-          <span>I&apos;m thrilled to answer to</span>
+          <span className='thrilledtext'>I&apos;m thrilled to answer to</span>
           <span className='arrowline flex gap-8 items-center'>your next project <img src="/arrow.png" alt="" /></span>
         </div>
 
@@ -49,6 +49,11 @@ const Page: React.FC = () => {
          <a className='resume mt-4' target='/' href="">View Resume</a>
         </div>
       </div>
+        <div className="socials flex gap-5">
+          <a target='/' href="https://www.behance.net/000nr1118c21NKR"><img src="/behance.png" alt="" /></a>
+          <a target='/' href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Social Icons.png" alt="" /></a>
+          <a target='/' href="https://www.instagram.com/_the_neeeraj/"><img src="/insta.png" alt="" /></a>
+        </div>
       <button className="scrollToTop" onClick={scrollToTop}>▲</button>
       <style jsx global>{`
         html {

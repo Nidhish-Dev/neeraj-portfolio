@@ -155,6 +155,15 @@ font-size: 30px;
 .email{
   font-size: 22px;
 }
+.socials {
+  margin-top: 30px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.socials img{
+  height: 25px;
+  /* filter: invert(); */
+}
 .resume{
   text-decoration:underline;
 }
@@ -234,5 +243,44 @@ font-size: 30px;
 
   .upperTitle span {
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .thrilledSection {
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .thrilledSection span {
+    font-size: 12px;
+  }
+  .thrilledtext{
+    margin-bottom: -20px;
+  }
+  .thrilledSection span img {
+    height: 20px;
+  }
+  .arrowline {
+    
+    margin-top: 10px;
+    gap: 4px;
+  }
+  .email {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .resume {
+    margin-top: 10px;
+    font-size: 9px;
+  }
+  .socials {
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: flex-start;
+  }
+  .socials img {
+    height: 20px;
   }
 }
