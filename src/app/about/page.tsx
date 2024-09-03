@@ -46,7 +46,8 @@ const Page: React.FC = () => {
 
         <div className='flex flex-col'>
          <p className='email'>neeraj942000@gmail.com</p>
-         <a className='resume mt-4' target='/' href="">View Resume</a>
+         <a className='resume mt-4' target='_blank' rel="noopener noreferrer" href="/CV.pdf">View Resume</a>
+
         </div>
       </div>
         <div className="socials flex gap-5">

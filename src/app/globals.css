@@ -164,6 +164,9 @@ font-size: 30px;
   height: 25px;
   /* filter: invert(); */
 }
+.contact-social{
+  margin-top: -200px;
+}
 .resume{
   text-decoration:underline;
 }
@@ -281,6 +284,9 @@ font-size: 30px;
     justify-content: flex-start;
   }
   .socials img {
-    height: 20px;
+    height: 15px;
+  }
+  .contact-social{
+    margin-top: -70px;
   }
 }

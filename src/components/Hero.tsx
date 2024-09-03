@@ -18,6 +18,15 @@ function Hero({ onScrollToProjects }: HeroProps) {
     onScrollToProjects();
     setShowScrollLink(false);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -72,6 +81,7 @@ function Hero({ onScrollToProjects }: HeroProps) {
       </div>
     </div>
     </div>
+    <button className="scrollToTop" onClick={scrollToTop}>▲</button>
     </>
   );
 }
