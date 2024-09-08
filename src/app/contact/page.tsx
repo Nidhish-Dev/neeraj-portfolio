@@ -36,13 +36,14 @@ const Page: React.FC = () => {
         onLoad={() => setIsLoading(false)} // Hide loading screen when image is loaded
         style={{ display: isLoading ? 'none' : 'block', width: '100%', height: 'auto' }} // Ensure the image scales correctly
       />
-      <div className='contact-social'>
+      <div className='contact-social '
+      style={{ marginLeft: '-20px'}}>
     <div className="socials flex gap-5">
           <a target='/' href="https://www.behance.net/000nr1118c21NKR"><img src="/behance.png" alt="" /></a>
           <a target='/' href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Social Icons.png" alt="" /></a>
           <a target='/' href="https://www.instagram.com/_the_neeeraj/"><img src="/insta.png" alt="" /></a>
         </div>
-        </div>
+        </div> 
         </div>
         <div className="mobileScreen">
         <img
