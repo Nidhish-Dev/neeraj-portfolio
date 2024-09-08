@@ -28,7 +28,7 @@ const Page: React.FC = () => {
           <div className="spinner"></div>
         </div>
       )}
-
+<div className="pcScreen">
       <img
         className="projects-img"
         src="/abt1.jpg"
@@ -54,6 +54,29 @@ const Page: React.FC = () => {
           <a target='/' href="https://www.behance.net/000nr1118c21NKR"><img src="/behance.png" alt="" /></a>
           <a target='/' href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Social Icons.png" alt="" /></a>
           <a target='/' href="https://www.instagram.com/_the_neeeraj/"><img src="/insta.png" alt="" /></a>
+        </div>
+        </div>
+
+        <div className="mobileScreen">
+        <img
+        className="projects-img"
+        src="/abtPhn.jpg"
+        alt="Project"
+        onLoad={() => setIsLoading(false)} // Hide loading screen when image is loaded
+        style={{ display: isLoading ? 'none' : 'block', width: '100%', height: 'auto' }} // Ensure the image scales correctly
+      />
+     <div className="thrilledSection text-white flex items-center justify-between">
+
+<div className='flex flex-col'>
+ <a className='resume mt-4' target='_blank' rel="noopener noreferrer" href="/CV.pdf">View Resume</a>
+
+</div>
+</div>
+<div className="socials flex gap-5">
+          <a target='/' href="https://www.behance.net/000nr1118c21NKR"><img src="/behance.png" alt="" /></a>
+          <a target='/' href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Social Icons.png" alt="" /></a>
+          <a target='/' href="https://www.instagram.com/_the_neeeraj/"><img src="/insta.png" alt="" /></a>
+        </div>
         </div>
       <button className="scrollToTop" onClick={scrollToTop}>▲</button>
       <style jsx global>{`

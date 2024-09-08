@@ -28,7 +28,7 @@ const Page: React.FC = () => {
           <div className="spinner"></div>
         </div>
       )}
-
+<div className="pcScreen">
       <img
         className="projects-img"
         src="/contact.jpg"
@@ -38,6 +38,25 @@ const Page: React.FC = () => {
       />
       <div className='contact-social'>
     <div className="socials flex gap-5">
+          <a target='/' href="https://www.behance.net/000nr1118c21NKR"><img src="/behance.png" alt="" /></a>
+          <a target='/' href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Social Icons.png" alt="" /></a>
+          <a target='/' href="https://www.instagram.com/_the_neeeraj/"><img src="/insta.png" alt="" /></a>
+        </div>
+        </div>
+        </div>
+        <div className="mobileScreen">
+        <img
+        className="projects-img"
+        src="/contactPhn.jpg"
+        alt="Project"
+        onLoad={() => setIsLoading(false)} // Hide loading screen when image is loaded
+        style={{ display: isLoading ? 'none' : 'block', width: '100%', height: 'auto' }} // Ensure the image scales correctly
+      />
+     <div className="thrilledSection text-white flex items-center justify-between">
+
+
+</div>
+<div className="socials flex gap-5">
           <a target='/' href="https://www.behance.net/000nr1118c21NKR"><img src="/behance.png" alt="" /></a>
           <a target='/' href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Social Icons.png" alt="" /></a>
           <a target='/' href="https://www.instagram.com/_the_neeeraj/"><img src="/insta.png" alt="" /></a>
